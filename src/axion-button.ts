@@ -53,7 +53,7 @@ export class AxionButton extends LitElement {
     .primary {
       min-width: 7rem;
       border-color: #5b9eff; /* Replace with actual color code for signal-alt-base */
-      background-color: #5b9eff; /* Replace with actual color code for signal-alt-base */
+      background-color: #ffa500; /* Replace with actual color code for signal-alt-base */
       color: white;
     }
 
