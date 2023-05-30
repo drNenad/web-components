@@ -18,7 +18,19 @@ export class AxionButton extends LitElement {
    */
   @property({ type: Boolean })
   loading = false
-
+  
+  connectedCallback() {
+    console.log("axion-button component connected!")
+  }
+  
+  disconnectedCallback() {
+    console.log("axion-button component disconnected!")
+  }
+  
+  updated(_changedProperties) {
+    console.log("axion-button is updated with new value: ", _changedProperties)
+  }
+  
   render() {
     return html`
       <button class="${this.buttonType}" disabled="${this.disabled}">
