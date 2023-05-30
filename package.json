@@ -1,9 +1,8 @@
 {
   "name": "web-components",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.3",
   "type": "module",
-  "main": "src/index.ts",
   "exports": {
     ".": "./src/index.ts",
     "./axion-button.ts": "./src/axion-button.ts",
