@@ -1,6 +1,9 @@
 import { LitElement, css, html } from 'lit'
 
 export class AxionSpinner extends LitElement {
+    constructor() {
+        super();
+    }
     render() {
         return html`
             <span class="loader"></span>

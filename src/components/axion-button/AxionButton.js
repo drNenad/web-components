@@ -3,10 +3,17 @@ import { property } from 'lit/decorators.js'
 import '../axion-spinner/index.js'
 
 export class AxionButton extends LitElement {
+  constructor() {
+    super();
+    
+    this.buttonType = 'primary'
+    this.disabled = false
+    this.loading = false
+  }
   static properties = {
-    buttonType: 'primary',
-    disabled: false,
-    loading: false
+    buttonType: {type: String},
+    disabled: {type: Boolean},
+    loading: {type: Boolean}
   };
   
   connectedCallback() {
