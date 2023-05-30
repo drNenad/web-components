@@ -26,12 +26,6 @@ export class AxionSpinner extends LitElement {
             100% {
                 transform: rotate(360deg);
             }
-        } 
+        }
   `;
-}
-
-declare global {
-    interface HTMLElementTagNameMap {
-        'axion-spinner': AxionSpinner
-    }
 }

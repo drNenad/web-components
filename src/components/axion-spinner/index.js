@@ -1,3 +1,3 @@
-import { AxionSpinner } from './AxionSpinner.ts';
+import { AxionSpinner } from './AxionSpinner.js';
 
 customElements.define('axion-spinner', AxionSpinner);
