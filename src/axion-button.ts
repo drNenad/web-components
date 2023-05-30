@@ -1,5 +1,6 @@
 import { LitElement, css, html } from 'lit'
 import { customElement, property } from 'lit/decorators.js'
+import './axion-spinner'
 
 /**
  * An example element.
@@ -28,7 +29,7 @@ export class AxionButton extends LitElement {
   render() {
     return html`
       <button class="${this.buttonType}" disabled="${this.disabled}">
-        <slot></slot>
+        ${this.loading ? html`<axion-spinner />` : html`<slot></slot>` }
       </button>
     `;
   }
