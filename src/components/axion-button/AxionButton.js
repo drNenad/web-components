@@ -3,21 +3,11 @@ import { property } from 'lit/decorators.js'
 import '../axion-spinner/index.js'
 
 export class AxionButton extends LitElement {
-  /**
-   * The number of times the button has been clicked.
-   */
-  @property({ type: String })
-  buttonType = 'primary'
-  /**
-   * The number of times the button has been clicked.
-   */
-  @property({ type: Boolean })
-  disabled = false
-  /**
-   * The number of times the button has been clicked.
-   */
-  @property({ type: Boolean })
-  loading = false
+  static properties = {
+    buttonType: 'primary',
+    disabled: false,
+    loading: false
+  };
   
   connectedCallback() {
     console.log("axion-button component connected!")
