@@ -4,17 +4,16 @@ import { defineConfig } from "vite";
 export default defineConfig(({ command, mode }) => {
     return {
         build: {
-            lib: {
-                entry: 'src/index.ts',
-                name: 'my-package',
-                formats: ['es'],
-            },
             rollupOptions: {
-                external: [],
-                output: {
-                    globals: {},
+                input: {
+                    index: 'src/index.ts',
+                    'axion-button': 'src/axion-button.ts',
+                    'axion-spinner': 'src/axion-spinner.ts'
                 },
-            },
-        },
+                output: {
+                    entryFileNames: '[name].js',
+                }
+            }
+        }
     };
 });
