@@ -1,17 +1,12 @@
 {
   "name": "web-components",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
   "type": "module",
-  "main": "src/axion-button.ts",
-  "module": "src/axion-button.ts",
+  "main": "src/index.ts",
   "exports": {
-    "./axion-button.ts": {
-      "import": "./src/axion-button.ts"
-    },
-    "./axion-slider.ts": {
-      "import": "./src/axion-slider.ts"
-    }
+    "./axion-button.ts": "./dist/axion-button.js",
+    "./axion-spinner.ts": "./dist/axion-spinner.js"
   },
   "scripts": {
     "dev": "vite",
