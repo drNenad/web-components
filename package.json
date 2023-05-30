@@ -4,9 +4,9 @@
   "version": "1.0.3",
   "type": "module",
   "exports": {
-    ".": "./dist/index.js",
-    "./axion-button": "./dist/axion-button.js",
-    "./axion-spinner": "./dist/axion-spinner.js"
+    ".": "./src/index.js",
+    "./axion-button": "./src/components/axion-button/index.js",
+    "./axion-spinner": "./src/components/axion-spinner/index.js"
   },
   "scripts": {
     "dev": "vite",

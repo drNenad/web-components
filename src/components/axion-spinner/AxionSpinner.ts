@@ -1,7 +1,5 @@
 import { LitElement, css, html } from 'lit'
-import { customElement } from 'lit/decorators.js'
 
-@customElement('axion-spinner')
 export class AxionSpinner extends LitElement {
     render() {
         return html`

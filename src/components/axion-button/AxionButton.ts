@@ -1,14 +1,12 @@
 import { LitElement, css, html } from 'lit'
-import { customElement, property } from 'lit/decorators.js'
-import './axion-spinner'
-
+import { property } from 'lit/decorators.js'
+import '../axion-spinner/index.js'
 /**
  * An example element.
  *
  * @slot - This element has a slot
  * @csspart button - The button
  */
-@customElement('axion-button')
 export class AxionButton extends LitElement {
   /**
    * The number of times the button has been clicked.
@@ -55,6 +53,12 @@ export class AxionButton extends LitElement {
       border-color: #5b9eff; /* Replace with actual color code for signal-alt-base */
       background-color: #ffa500; /* Replace with actual color code for signal-alt-base */
       color: white;
+    }
+    .secondary {
+      min-width: 7rem;
+      border-color: #5b9eff; /* Replace with actual color code for signal-alt-base */
+      background-color: #ffffff; /* Replace with actual color code for signal-alt-base */
+      color: #5b9eff;
     }
   `;
 }
