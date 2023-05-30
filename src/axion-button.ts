@@ -56,13 +56,6 @@ export class AxionButton extends LitElement {
       background-color: #ffa500; /* Replace with actual color code for signal-alt-base */
       color: white;
     }
-
-    /* Add other styles for secondary, icon and extended classes. Replace with actual color code in each class */
-
-    .primary:disabled {
-      border-color: #8b8b8b; /* Replace with actual color code for signal-alt-low */
-      background-color: #8b8b8b; /* Replace with actual color code for signal-alt-low */
-    }
   `;
 }
 
