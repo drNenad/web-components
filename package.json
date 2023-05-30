@@ -5,8 +5,9 @@
   "type": "module",
   "main": "src/index.ts",
   "exports": {
-    "./axion-button.ts": "./dist/axion-button.js",
-    "./axion-spinner.ts": "./dist/axion-spinner.js"
+    ".": "./src/index.ts",
+    "./axion-button.ts": "./src/axion-button.ts",
+    "./axion-spinner.ts": "./src/axion-spinner.ts"
   },
   "scripts": {
     "dev": "vite",
