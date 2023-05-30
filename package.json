@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "dist/axion-web-components.js",
+  "main": "src/axion-button.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
