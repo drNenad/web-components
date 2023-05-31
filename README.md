@@ -12,9 +12,13 @@ Install as dependency in your project in package.json file:
 }, 
  ```
 
-import components in code:
+import components in JS:
 
 ``` import 'custom-package' ```
+
+use them in HTML:
+
+``` <axion-button>test</axion-button> ```
 
 ## Installation
 
