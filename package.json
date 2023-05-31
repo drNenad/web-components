@@ -1,13 +1,9 @@
 {
-  "name": "web-components",
+  "name": "axion-web-components",
   "private": true,
-  "version": "1.0.9",
+  "version": "0.0.0",
   "type": "module",
-  "exports": {
-    ".": "./src/index.js",
-    "./axion-button": "./src/components/axion-button/index.js",
-    "./axion-spinner": "./src/components/axion-spinner/index.js"
-  },
+  "main": "dist/axion-web-components.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -17,6 +13,7 @@
     "lit": "^2.7.2"
   },
   "devDependencies": {
+    "typescript": "^5.0.2",
     "vite": "^4.3.9"
   }
 }
