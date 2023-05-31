@@ -2,13 +2,6 @@
 
 This is a project for developing web components using Vite and Lit.
 
-## Installation
-
-To use this package, you need to have Node.js installed. After cloning the repository, navigate to the project directory and run the following command to install the dependencies:
-
-```yarn```
-
-
 ## Usage
 
 Install as dependency in your project in package.json file:
@@ -22,6 +15,12 @@ Install as dependency in your project in package.json file:
 import components in code:
 
 ``` import 'custom-package' ```
+
+## Installation
+
+To use this package, you need to have Node.js installed. After cloning the repository, navigate to the project directory and run the following command to install the dependencies:
+
+```yarn```
 
 ### Development
 
