@@ -11,6 +11,18 @@ To use this package, you need to have Node.js installed. After cloning the repos
 
 ## Usage
 
+Install as dependency in your project in package.json file:
+
+``` 
+"dependencies": {
+    "custom-package": "git+https://github.com/drNenad/web-components.git"
+}, 
+ ```
+
+import components in code:
+
+``` import 'custom-package' ```
+
 ### Development
 
 During development, you can use the following command to start the development server:
